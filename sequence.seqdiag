@@ -1,0 +1,33 @@
+main.js->plan.js:gets createPlan
+plan.js-->main.js:gives createPlan
+main.js->field.js:gets usePlants
+field.js-->main.js:gives usePlants
+main.js->tractor.js:gets plantSeeds
+tractor.js->field.js:gets addPlant
+field.js-->tractor.js:gives addPlant
+
+tractor.js->asparagus.js:gets createAsparagus
+asparagus.js-->tractor.js:gives createAsparagus
+
+tractor.js->corn.js:gets createCorn
+corn.js-->tractor.js:gives createCorn
+
+tractor.js->potato.js:gets createPotato
+potato.js-->tractor.js:gives createPotato
+
+tractor.js->soybean.js:gets createSoybean
+soybean.js-->tractor.js:gives createSoybean
+
+tractor.js->sunflower.js:gets createSunflower
+sunflower.js-->tractor.js:gives createSunflower
+
+tractor.js->wheat.js:gets createWheat
+wheat.js-->tractor.js:gives createWheat
+
+tractor.js-->main.js:gives plantSeeds
+
+main.js->harvester.js:gets harvestPlants
+harvester.js-->main.js:gives harvestPlants
+
+main.js->catalog.js:gets Catalog
+catalog.js-->main.js:gives Catalog

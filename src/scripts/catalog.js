@@ -1,7 +1,7 @@
 
 export const Catalog = (harvestedFood) =>
 {
-    let catalogElement = document.getElementsByClassName("container")
+    let catalogElement = document.querySelector(".container")
 
     debugger
     const HTML = ""
